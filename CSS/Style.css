@@ -1,0 +1,129 @@
+* {
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Heading */
+#heading {
+    background-color: #303030;
+    color: white;
+}
+
+#heading-title {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -2.5px;
+    padding: 206px 0px 0px 62px;
+}
+
+#heading-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 0px 0px 149px 62px; 
+}
+
+
+/* Experience */
+#experience {
+    background-color: #F5F5F5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.number {
+    padding: 96px 0px 0px 100px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 28px;
+    
+}
+
+.text {
+    padding: 0px 0px 67px 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    
+}
+
+
+/* History */
+#history {
+    background-color: #F9F9F9;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#history-title {
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 20px;
+    padding: 304px 0px 0px 50px;
+}
+
+#history-text {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 30px;
+    padding: 0px 0px 310px 50px;
+}
+
+#history-img {
+    width: 510px;
+    height: 605px;
+    padding: 82px 50px 92px 70px;
+}
+
+
+/* Form */
+#form {
+    background-color: #303030;
+    text-align: center;
+    color: white;
+}
+
+#form-title {
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 48px;
+    padding-top: 87px;
+}
+
+.form {
+    width: 500px;
+    padding: 19px 0px 23px 30px;
+    font-style: normal;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    border-radius: 10px;
+    border-width: none;
+}
+
+#button {
+    background-color: #C07212;
+    color: white;
+    padding: 22px 47px 22px 46px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    margin: 88px 0px 87px 0px;
+    border-radius: 10px;
+}
+
+#button:hover {
+    color: rgb(37, 37, 37);
+    background-color: #d29040;
+    box-shadow: 0px 15px 20px 0px #8887868a;
+    transition-duration: 0.5;
+    transform: translateY(-7px);
+}
+
+
+
